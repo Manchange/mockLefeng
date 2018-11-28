@@ -1,0 +1,78 @@
+.active1 {
+  background: orangered;
+  color: #fff; }
+  .active1 i {
+    color: #fff; }
+  .active1 .sheng {
+    color: yellow; }
+
+.active2 {
+  background: orangered;
+  color: #fff; }
+  .active2 i {
+    color: #fff; }
+  .active2 .jiang {
+    color: yellow; }
+
+.more {
+  display: block; }
+  .more .morep2 {
+    display: block; }
+  .more .webf4, .more .webf5 {
+    display: block; }
+
+.menu-btn {
+  height: 39px; }
+
+.menu-btn:hover .menu-fold {
+  transform: rotate(180deg);
+  transition: transform 0.5s; }
+
+.qmain {
+  background: #f5f5f5;
+  padding-bottom: 20px; }
+
+.sort {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  background: #fcfcfc; }
+  .sort button {
+    margin-left: 5px;
+    font-size: 16px;
+    border-radius: 5px; }
+
+.qpro {
+  width: 100%; }
+  .qpro ul:hover {
+    border: 1px solid red;
+    box-shadow: 5px 5px 3px #ccc; }
+  .qpro ul {
+    background: #fff;
+    float: left;
+    width: 240px;
+    border: 1px solid #ccc;
+    margin: 10px 10px 0 0;
+    padding: 10px; }
+    .qpro ul li {
+      width: 210px;
+      margin-top: 10px; }
+      .qpro ul li a .pic {
+        width: 210px;
+        height: 265px; }
+    .qpro ul .qtil {
+      font-size: 12px;
+      height: 30px;
+      overflow: hidden; }
+    .qpro ul .qprice b {
+      color: red; }
+    .qpro ul .qprice del {
+      font-size: 12px; }
+    .qpro ul .qprice span {
+      font-size: 18px;
+      color: red; }
+    .qpro ul .gbtn {
+      background: red;
+      font-size: 14px;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px; }

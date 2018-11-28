@@ -1,0 +1,371 @@
+//流程进度
+.flow{
+    width: 487px;
+    height:90px;
+    background: url(../img/sprites/sprites6.jpg) no-repeat 0 0;
+}
+.buycar{
+    border-top:2px solid #f00;
+    border-bottom:1px solid #f00;
+    .car1{
+        display:none;
+        .carlogo{
+            width: 97px;
+            height: 97px;
+            background: url(../img/sprites/sprites7.png) no-repeat 0 -97px;
+            margin:90px 90px 0 50px;
+        }
+        ul{
+            margin-top:50px;
+            .tip{
+                line-height: 67px;
+                font-size: 24px;
+                font-family: "\5FAE\8F6F\96C5\9ED1";
+                color: #cccccc;
+                font-weight: bold;
+            }
+            .returnIndex{
+                a{
+                    display:inline-block;
+                    width: 200px;
+                    height: 48px;
+                    color:#fff;
+                    text-align:center;
+                    line-height: 48px;
+                    background:#f52648;
+                }
+            }
+            .search{
+                border:1px solid #ccc;
+                margin:20px 0;
+                width:480px;
+                font-size:0;
+                input{
+                    height:26px;
+                    width:452px;
+                    padding-left:10px;
+                }
+                button{
+                    width: 26px;
+                    height: 26px;
+                    background: url(../img/sprites/sprites7.png) no-repeat -1px -270px;
+                    vertical-align:middle;  
+                }
+            }
+        }
+    }
+    .car2{
+        padding:20px 0;
+        .ware{
+            width: 100%;
+            margin-bottom:20px;
+            thead{
+                border:1px solid #ccc;
+                border-left:2px solid #f52648;
+
+                td{
+                    height:36px;
+                    color:red;
+                    font-size:14px;
+                }
+                .th1{
+                    width: 450px;
+                    padding-left:15px;
+                }
+                .th2{
+                    width: 120px;
+                    text-align:center;
+                }
+                .th3{
+                    width: 150px;
+                    text-align:center;
+                }
+                .th4{
+                    width: 160px;
+                    text-align:center;
+                }
+                .th5{
+                    width: 120px;
+                    text-align:center;
+                }
+            }
+            tbody{
+                border:1px solid #ccc;
+                border-left:2px solid #ccc;
+                img{
+                    width:100px;
+                    border:1px solid #ccc;
+                    margin:10px 0 10px 15px;
+                }
+                .title{
+                    display:inline-block;
+                    font-size:14px;
+                    width:200px;
+                    margin-left: 10px;
+                }
+                i{
+                    display:inline-block;
+                }
+                .th2{
+                    span{
+                        font-weight: bold;
+                        color:#000;
+                    }
+                    del{
+                        font-size:12px;
+                    }
+                }
+                .th3{
+                    text-align: center;
+                    p{
+                        width: 240px;
+                        float: right;
+                        button{
+                            display:inline-block;
+                            height: 25px;
+                            width:25px;
+                            border:1px solid #ccc;
+                            text-align: center
+                        }
+                        .addNum{
+                            width:50px;
+                            height:25px;
+                            border:1px solid #ccc;
+                            vertical-align:top;
+                            text-align:center;
+                        }
+                    }
+                    .buyTip{
+                        display:none;
+                        font-size:14px;
+                        color:#f00;
+                        margin-top: 10px;
+                        width:110px;
+                    }
+                }
+                .th4{
+                    text-align:center;
+                    .addprice{
+                        color:red;
+                    }
+                }
+                .th5{
+                    text-align: center;
+                }
+                .td1{
+                    height:55px;
+                }
+                .mj{
+                    display:inline-block;
+                    width: 60px;
+                    height: 24px;
+                    font-size:14px;
+                    padding:0 15px;
+                    line-height: 24px;
+                    color:#fff;
+                    background: #D84C4C;
+                    margin:0 15px;
+                }
+                .xiang{
+                    font-size:14px;
+                    color:#999;
+                }
+            }
+            tfoot{
+                border:1px solid #ccc;
+                border-left:2px solid #ccc;
+                background: #eee;
+                .td1{
+                    height:30px;
+                }
+                .mz,.by{
+                    display:inline-block;
+                    width: 60px;
+                    height: 24px;
+                    font-size:14px;
+                    padding:0 15px;
+                    line-height: 24px;
+                    color:#fff;
+                    background:#bbb;
+                    margin:0 15px;
+                }
+                //满减
+                .tbactive{
+                    background:#fb1;
+                }
+                .xiang{
+                    font-size:14px;
+                    color:#999;
+                }
+            }
+        }
+        .cartq{
+            background: #fdfcf8;
+            border:1px solid #ccc;
+            .sykq{
+                display:block;
+                height: 37px;
+                margin:15px 15px 0;
+                color:red;
+                font-weight:bold;
+                border-bottom: 1px dotted #cccbc6;
+                i{
+                    display:inline-block;
+                    width: 14px;
+                    height: 14px;
+                    margin-right:10px;
+                    background: url(../img/sprites/sprites8.jpg) no-repeat 0 -18px;
+                }
+                span{
+                    margin-left: 20px;
+                    font-weight: normal;
+                    color:#999;
+                    b{
+                        color:red;
+                    }
+                }
+            }
+            .quan{
+                padding-bottom:10px;
+                border-bottom: 1px dotted #cccbc6;
+                .qtype{
+                    padding-bottom:15px;
+                    margin:25px 20px 20px;
+                    color:#000;
+                    border-bottom: 1px dotted #cccbc6;
+                    span{
+                        display:inline-block;
+                        border:1px solid #ccc;
+                        font-size:14px;
+                        padding:5px 10px;
+                        background: #fff;
+                        margin-left:10px;
+                    }
+                    input{
+                        border:1px solid #ccc;
+                        height: 30px;
+                        padding-left:5px;
+                    }
+                    button{
+                        height: 30px;
+                        border:1px solid #ccc;
+                        border-left:0 none;
+                        padding:0 20px;
+                        vertical-align:middle;
+                    }
+                }
+                .choose{
+                    margin:0px 20px;
+                    border-bottom:1px solid #ccc;
+                    span{
+                        display:inline-block;
+                        width: 165px;
+                        height: 46px;
+                        color:#000;
+                        line-height: 46px;
+                        text-align: center;
+                        border:1px solid #ccc;
+                        border-bottom:0 none;
+                        cursor: pointer;
+                        position:relative;
+                        top:1px;
+                        b{
+                            color:red;
+                        }
+                    }
+                    i{
+                        float: right;
+                        font-size:12px;
+                        line-height: 40px;
+                    }
+                }
+                .zyhq,.qyhq{
+                    margin:0 20px;
+                    background:#fff;
+                    border:1px solid #ccc;
+                    border-top:0 none;
+                    text-align:center;
+                    height: 130px;
+                    p{
+                        color:#000;
+                        padding:30px 45px;
+                        font-size:12px;
+                        text-align:left;
+                    }
+                    span{
+                        color:#000;
+                        font-size:14px;
+                        i{
+                            display:inline-block;
+                            width: 25px;
+                            height: 25px;
+                            background: url(../img/sprites/sprites9.jpg) no-repeat -98px 0;
+                            vertical-align: middle;
+                            margin-right:10px;
+                        }
+                    }
+                }
+                .zyhq{
+                    display:none;
+                }
+            }
+            .tj{
+                text-align:right;
+                padding:0 40px;
+                border-bottom:1px solid #ccc;
+                span{
+                    font-size:12px;
+                    line-height: 40px;
+                    i{
+                        color:red;
+                    }
+                }
+                b{
+                    color:red;
+                    font-size:20px;
+                    margin-left:50px;
+                }
+            }
+            .sumprice{
+                text-align:right;
+                padding:0 40px;
+                background: #fff;
+                line-height:80px;
+                font-size:12px;
+                i{
+                    color:red;
+                    font-size:20px;
+                    margin-left:110px;
+                    font-weight:bold;
+                    }
+            }
+            .js{
+                line-height: 48px;
+                background: #f3f3f3;
+                border-top:1px solid #ccc;
+                a{
+                    font-size:14px;
+                    margin-left: 30px;
+                    color:#666;
+                }
+                button{
+                    height:48px;
+                    width: 200px;
+                    background: #f52648;
+                    color:#fff;
+                    font-size:16px;
+                    float: right;
+                }
+            }
+        }
+    }
+}
+//tab切换
+.cactive{
+        background:#fff;
+        border-bottom:0 none;
+        font-weight:bold;
+        b{
+            text-align:bold;
+        }
+    }

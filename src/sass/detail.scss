@@ -1,0 +1,387 @@
+// 购物车
+.allitem{
+    padding:5px 10px;
+    border-bottom:1px dashed #ccc;
+    span{
+        display:inline-block;
+        a{
+            img{
+                width: 53px;
+                border:1px solid #ccc;
+            }
+        }
+    }
+    .alltitle{
+        width:110px;
+        height: 60px;
+        overflow:hidden;
+        line-height: 20px;
+        font-size:12px;
+        text-align:left;
+        padding-left:10px;
+        vertical-align:middle;
+    }
+    .allprice{
+        b{
+            color:red;
+        }
+    }
+}
+.total{
+    p{
+
+        display:inline-block;
+        width:40%;
+        float:left;
+        text-align:left;
+        span{
+            display:block;
+            height:30px;
+            line-height: 30px;
+            b,i{
+                color:red;
+            }
+            b{
+                font-weight:bold;
+                font-size:18px;
+            }
+        }
+    }
+    a{
+        display:inline-block;
+        width: 40%;
+        float: right;
+        color:#fff;
+        background: #f00;
+        border-radius:5px;
+        text-align:center;
+        line-height: 30px;
+        margin-top:20px;
+    }
+}
+.more {
+  display: block; }
+  .more .morep2 {
+    display: block; }
+  .more .webf4, .more .webf5 {
+    display: block; }
+.nav .menu-btn{
+    height: 39px;
+    background: #f52648;
+}
+.menu-btn:hover{
+    background: #d62340;
+    .menu-fold {
+      transform: rotate(180deg);
+      transition: transform 0.5s; }
+    }
+//导航
+.detail{
+    background: #f5f5f5;
+}
+.detailNav{
+    font-size:14px;
+    padding:15px 0;
+    a{
+        color:#666;
+    }
+    span{
+        display:inline-block;
+        height:16px;
+        width:600px;
+        overflow:hidden;
+        color:#f00;
+    }
+}
+//分享到
+.contlast{
+    width:550px;
+    padding:10px 0 30px 0;
+    position:relative;
+    span{
+        float: right;
+        font-size:14px;
+        color:#999;
+        i{
+            display:inline-block;
+            width: 14px;
+            height: 16px;
+            background: url(../img/sprites/sprites3.png) no-repeat -179px -382px
+        }
+        
+    }
+    ul{
+        display:none;
+        position:absolute;
+        top:36px;
+        right:-24px;
+        padding:5px 0 5px 5px;
+        border:1px solid #e8dcbb;
+        background: #fff;
+        b{
+            display: inline-block;
+            width: 0;
+            height: 0;
+            font-size: 0;
+            overflow: hidden;
+            position: absolute;
+            top:-16px;
+            left:36px;
+        }
+        .share1{
+            border: 8px dashed transparent;
+            border-bottom: 8px solid #e8dcbb;
+        }
+        .share2{
+            border: 7px dashed transparent;
+            border-bottom: 7px solid #fff;
+            top:-14px;
+            left:37px;
+        }
+        li{
+            float: left;
+            margin-right:5px;
+        }
+        .xlwb,.txwb,.qzone,.wx{
+            width: 16px;
+            height:16px;
+            background:url(../img/sprites/sprites3.png) no-repeat 0px -382px;
+        }
+        .txwb{
+            background-position:-21px -382px;
+        }
+        .qzone{
+            background-position: -42px -382px;
+        }
+        .wx{
+            background:url(../img/wxx.jpg) no-repeat 0 0;
+        }
+    }
+}
+.contents{
+    padding:30px 30px 0 30px;
+    margin-bottom:20px;
+    background: #fff;
+    dt{
+        h2{
+            font-size:20px;
+            height:30px;
+            color:#000;
+            font-weight: bold;
+        }
+        p{
+            height: 55px;
+        }
+    }
+    .cc{
+        height: 320px;
+        overflow:hidden;
+        position:relative;
+        img{
+            width:300px;
+            position:absolute;
+            top:-50px;
+            left:100px;
+        }
+    }
+}
+.cond{
+    width: 310px;
+    li{
+
+        font-size:14px;
+    }
+    .aprice{
+        border-top:1px dashed #ccc;
+        padding:20px 0;
+        span{
+            margin-left:40px;
+            color:red;
+            i{
+                color:red;
+                font-size:30px;
+                font-weight: bold;
+                margin-left:10px;
+            }
+        }
+        b{
+            display:inline-block;
+            width: 40px;
+            height: 16px;
+            background: #F00;
+            color:#fff;
+            text-align:center;
+            margin-left:15px;
+        }
+        del{
+            margin-left:25px;
+        }
+    }
+    .dhui{
+        border-bottom:1px dashed #ccc;
+        padding-bottom:20px;
+        p{
+            float: right;
+            width: 240px;
+            font-size:12px;
+            i{
+                display:inline-block;
+                width:39px;
+                height: 25px;
+                background: url(../img/sprites/sprites4.png) no-repeat -39px 0;
+            }
+            b{
+                vertical-align:top;
+                margin-left:5px;
+            }
+        }
+    }
+    .dnum{
+        padding:20px 0;
+        p{
+            width: 240px;
+            float: right;
+            button{
+                display:inline-block;
+                height: 25px;
+                width:25px;
+                border:1px solid #ccc;
+                text-align: center
+            }
+            .addNum{
+                width:50px;
+                height:25px;
+                border:1px solid #ccc;
+                vertical-align:top;
+                text-align:center;
+            }
+        }
+    }
+    .lastcond{
+        display:block;
+        margin-top:10px;
+        clear:both;
+        i{
+            color:#f00;
+        }
+    }
+}
+.addcar{
+        height:45px;
+        width: 170px;
+        clear:both;
+        text-align:center;
+        line-height: 45px;
+        background:#F82143;
+        font-size:16px;
+        color:#fff;
+        border-radius:5px;
+        cursor: pointer;
+    }
+//详情信息
+.detailc{
+    position:relative;
+    width:760px;
+    margin-bottom:20px;
+    img{
+        width: 760px;
+    }
+}
+.detailr{
+    width: 230px;
+    img{
+        width: 230px;   
+    }
+}
+//吸顶
+.mounting{
+    width:100%;
+    height: 50px;
+    background: #F5F5F5;
+    border:1px solid #ddd;
+    position:absolute;
+    top:0;
+    left:0;
+    #moun0,#mount0{
+        display:inline-block;
+        text-align: center;
+        float: left;
+        padding:5px 40px 0;
+        font-size: 14px;
+        line-height: 40px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .buy{
+        font-size:14px;
+        margin-top:5px;
+        i{
+            font-size:24px;
+            color:red;
+            font-weight: bold;
+            margin-right:10px;
+        }
+        del{
+            margin-right:10px;
+        }
+        button:hover{
+            div{
+                display:block;
+            }
+        }
+        button{
+            position:relative;
+            width: 110px;
+            height:28px;
+            font-size:12px;
+            background: url(../img/sprites/sprites5.png) no-repeat -175px -206px;
+            line-height: 28px;
+            margin-right:10px;
+            div{
+                display:none;
+                width:255px;
+                padding: 15px 15px 15px;
+                box-shadow: 0 3px 3px #CCCCCC;
+                background-color: #fff;
+                position: absolute;
+                right:-10px;
+                li{
+                    float: left;
+                    img{
+                        width:100px;
+                        border:1px solid #ccc;
+                    }
+                    span{
+                        text-align:left;
+                        line-height:16px;
+                        margin-left:10px;
+                        margin-bottom:30px;
+                        display:block;
+                        width:110px;
+                        height:65px;
+                        overflow:hidden;
+                    }
+                    del{
+                        margin-left:10px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+.mactive{
+    position:fixed;
+    width:760px;
+    top:0;
+    left:15%;
+}
+.down{
+    background: #fff;
+    color: red;
+    height: 47px;
+    border-top: solid 4px red;
+    padding:0 40px 0;
+    line-height: 30px;
+    border-top:5px solid #f00;
+}

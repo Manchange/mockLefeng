@@ -1,0 +1,308 @@
+.fixed {
+  display: none;
+  position: fixed;
+  left: 5%;
+  top: 0;
+  z-index: 20; }
+  .fixed div {
+    width: 144px;
+    height: 208px; }
+    .fixed div .ewm {
+      display: block;
+      width: 144px;
+      height: 208px;
+      margin-left: 0;
+      background-position: -120px -28px;
+      position: relative; }
+      .fixed div .ewm .ewmClose {
+        display: block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        right: 5px;
+        top: 77px;
+        cursor: pointer; }
+  .fixed span {
+    display: block;
+    width: 67px;
+    height: 75px;
+    background: url(../img/sprites/sprites1.png) no-repeat -67px -306px;
+    margin-left: 70px; }
+  .fixed .hotFix {
+    background-position: -67px -381px; }
+
+.allitem {
+  padding: 5px 10px;
+  border-bottom: 1px dashed #ccc; }
+  .allitem span {
+    display: inline-block; }
+    .allitem span a img {
+      width: 53px;
+      border: 1px solid #ccc; }
+  .allitem .alltitle {
+    width: 110px;
+    height: 60px;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: middle; }
+  .allitem .allprice b {
+    color: red; }
+
+.total p {
+  display: inline-block;
+  width: 40%;
+  float: left;
+  text-align: left; }
+  .total p span {
+    display: block;
+    height: 30px;
+    line-height: 30px; }
+    .total p span b, .total p span i {
+      color: red; }
+    .total p span b {
+      font-weight: bold;
+      font-size: 18px; }
+
+.total a {
+  display: inline-block;
+  width: 40%;
+  float: right;
+  color: #fff;
+  background: #f00;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px; }
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  overflow: hidden; }
+
+.banner img {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1; }
+
+.banner .container {
+  height: 20px;
+  text-align: right;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3; }
+
+.banner .container span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #333; }
+
+.main {
+  background: #f5f5f5; }
+
+.daily h3, #brand h3, #hot h3 {
+  position: relative;
+  height: 60px;
+  padding: 10px 0;
+  border-bottom: 3px solid red; }
+  .daily h3 i, #brand h3 i, #hot h3 i {
+    display: inline-block;
+    height: 40px;
+    width: 118px;
+    margin-right: 20px;
+    background: url(../img/sprites/sprites1.png) no-repeat 0 -24px; }
+  .daily h3 span, #brand h3 span, #hot h3 span {
+    display: inline-block;
+    font-size: 18px;
+    color: #999;
+    position: absolute;
+    top: 25px; }
+    .daily h3 span b, #brand h3 span b, #hot h3 span b {
+      color: red; }
+
+.product {
+  background: #fff; }
+
+.pro {
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  position: relative; }
+  .pro i {
+    display: block;
+    width: 46px;
+    height: 59px;
+    background: url(../img/sprites/sprites1.png) no-repeat -137px -243px; }
+  .pro h4 {
+    width: 260px;
+    margin-top: 70px; }
+    .pro h4 .title {
+      font-size: 18px;
+      color: #666; }
+    .pro h4 .discount {
+      color: red; }
+  .pro .price {
+    font-size: 26px;
+    color: #666;
+    margin-top: 20px; }
+  .pro .oldprice {
+    font-size: 16px; }
+  .pro button {
+    display: none;
+    background: red;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px; }
+  .pro img {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+
+.product2 {
+  border-left: 1px solid #ccc; }
+  .product2 i {
+    background-position: -183px -243px; }
+
+.product3, .product4, .product5 {
+  width: 333px;
+  height: 420px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc; }
+  .product3 i, .product4 i, .product5 i {
+    background-position: -137px -303px; }
+  .product3 h4, .product4 h4, .product5 h4 {
+    margin-top: 220px; }
+  .product3 button, .product4 button, .product5 button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px; }
+
+.product3 {
+  border-left: 0 none; }
+
+.product4 i {
+  background-position: -183px -303px; }
+
+.product5 i {
+  background-position: -137px -363px; }
+
+.pro:hover .pro-img {
+  opacity: 0.5;
+  transition: opacity 0.2s; }
+
+.pro:hover .pro-btn {
+  display: block; }
+
+#brand h3 {
+  border-bottom: 3px solid #F99C15; }
+  #brand h3 i {
+    background-position: 0 -64px; }
+  #brand h3 .last {
+    font-size: 12px;
+    position: absolute;
+    right: 0; }
+
+#brand .brand {
+  padding: 10px 0; }
+  #brand .brand .brand-item {
+    width: 492px;
+    height: 250px;
+    font-size: 12px;
+    margin: 0 4px 20px 4px;
+    float: left;
+    position: relative; }
+    #brand .brand .brand-item a img {
+      width: 492px; }
+    #brand .brand .brand-item a img:hover {
+      box-shadow: 0 0 5px #666;
+      transition: box-shadow 0.5s; }
+    #brand .brand .brand-item a .pms {
+      height: 32px;
+      width: 100%;
+      color: #fff;
+      padding-left: 8px;
+      line-height: 32px;
+      position: absolute;
+      bottom: 35px;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.6); }
+    #brand .brand .brand-item .info {
+      padding: 10px 8px 8px 0;
+      color: #666;
+      font-size: 14px; }
+      #brand .brand .brand-item .info span {
+        color: red; }
+
+#brand .more-brand {
+  display: block;
+  background: #FCE4E4;
+  text-align: center; }
+
+#brand .more-brand:hover {
+  box-shadow: 0 0 5px #666;
+  transition: box-shadow 0.5s; }
+
+#hot h3 {
+  border-bottom: 3px solid #C254BC; }
+  #hot h3 i {
+    background-position: 0 -264px; }
+
+#hot .sale .goods-item {
+  width: 220px;
+  margin: 10px 20px;
+  background: #fff;
+  font-size: 14px;
+  padding: 10px 10px 0; }
+  #hot .sale .goods-item li {
+    color: #666;
+    margin-bottom: 10px; }
+    #hot .sale .goods-item li b {
+      color: red; }
+  #hot .sale .goods-item .pic {
+    width: 200px;
+    height: 253px; }
+  #hot .sale .goods-item .gtil {
+    height: 38px;
+    overflow: hidden; }
+    #hot .sale .goods-item .gtil b {
+      font-weight: bold; }
+  #hot .sale .goods-item .price span {
+    font-size: 18px; }
+  #hot .sale .goods-item .price del {
+    font-size: 12px;
+    color: #999; }
+  #hot .sale .goods-item .price .gbtn {
+    display: none;
+    background: red;
+    padding: 3px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px; }
+
+#hot .sale :nth-child(4n) {
+  margin-right: 0; }
+
+#hot .sale :nth-child(4n+1) {
+  margin-left: 0; }
+
+#hot .sale .goods-item:hover .pic {
+  opacity: 0.5;
+  transition: opacity 0.2s; }
+
+#hot .sale .goods-item:hover .gbtn {
+  display: block; }
+
+.fapp {
+  height: 304px;
+  margin-top: 30px;
+  background: url(../img/app.jpg) no-repeat center #f62648; }

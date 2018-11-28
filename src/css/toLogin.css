@@ -1,0 +1,202 @@
+@charset "UTF-8";
+body {
+  background: url(../img/login-bk.jpg) no-repeat center top #fbe1d3; }
+
+.ltop {
+  height: 30px;
+  background: #f2f2f2;
+  font-family: "宋体";
+  color: #666; }
+  .ltop li {
+    font-size: 12px;
+    line-height: 30px;
+    padding-right: 10px;
+    padding-left: 10px; }
+    .ltop li a {
+      color: #666; }
+  .ltop .sec {
+    position: relative;
+    z-index: 5; }
+    .ltop .sec .fast {
+      display: none;
+      padding: 10px 10px 0 10px;
+      width: 137px;
+      border: 1px solid #ccc;
+      background: #fff;
+      position: absolute;
+      z-index: 2;
+      top: 29px;
+      left: -1px; }
+      .ltop .sec .fast span {
+        padding: 0 10px;
+        position: absolute;
+        top: -30px;
+        left: -1px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-bottom: 1px solid #fff;
+        border-top: 0px solid #fff; }
+      .ltop .sec .fast img {
+        padding-top: 10px; }
+      .ltop .sec .fast b {
+        display: block;
+        text-align: center;
+        line-height: 30px;
+        color: red; }
+    .ltop .sec i {
+      display: inline-block;
+      width: 8px;
+      height: 4px;
+      vertical-align: middle;
+      background: url(../img/sprites/sprites2.png) no-repeat -96px 0; }
+  .ltop .sec:hover .fast {
+    display: block; }
+  .ltop .last {
+    color: red;
+    position: relative; }
+    .ltop .last i {
+      display: inline-block;
+      width: 10px;
+      height: 15px;
+      vertical-align: middle;
+      background: url(../img/sprites/icon-base2.png) no-repeat -540px -257px; }
+    .ltop .last .app {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      top: 30px;
+      left: -1px;
+      width: 140px;
+      padding: 10px;
+      padding-bottom: 5px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-top: 0 none;
+      color: #666; }
+      .ltop .last .app span {
+        padding-right: 10px;
+        color: red;
+        position: absolute;
+        top: -30px;
+        left: -1px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-top: 0 none;
+        border-bottom: 1px solid #fff; }
+        .ltop .last .app span i {
+          display: inline-block;
+          margin-left: 10px;
+          width: 10px;
+          height: 15px;
+          vertical-align: middle;
+          background: url(../img/sprites/icon-base2.png) no-repeat -540px -257px; }
+      .ltop .last .app img {
+        width: 120px; }
+      .ltop .last .app i {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+        background: url(../img/sprites/icon-base2.png) no-repeat -535px -287px; }
+      .ltop .last .app b {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(../img/sprites/icon-base2.png) no-repeat -535px -315px;
+        vertical-align: middle; }
+
+.last:hover .app {
+  display: block; }
+
+.logo h1 {
+  margin: 10px;
+  text-indent: -10000px;
+  width: 170px;
+  height: 85px;
+  background: url(../img/logo.png) no-repeat; }
+
+.error {
+  color: red; }
+
+.login {
+  padding-bottom: 60px; }
+
+.loginc {
+  width: 420px;
+  height: 620px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #ccc;
+  margin-right: 20px; }
+  .loginc .loginTop {
+    padding: 20px 60px;
+    font-size: 24px; }
+    .loginc .loginTop a {
+      font-size: 14px;
+      color: #02b1cb;
+      float: right;
+      line-height: 30px; }
+  .loginc .loginCenter {
+    padding: 20px 60px; }
+    .loginc .loginCenter li {
+      padding-bottom: 20px;
+      font-size: 12px; }
+      .loginc .loginCenter li input {
+        padding: 0 5px;
+        margin-top: 5px;
+        width: 300px;
+        border: 1px solid #ccc;
+        line-height: 30px;
+        font-weight: bold; }
+      .loginc .loginCenter li .num {
+        display: block;
+        color: red; }
+    .loginc .loginCenter .psw a {
+      font-size: 14px;
+      color: #02b1cb;
+      float: right; }
+    .loginc .loginCenter .yzm input {
+      width: 150px; }
+    .loginc .loginCenter .yzm .yanma {
+      display: inline-block;
+      width: 85px;
+      height: 40px;
+      font-size: 20px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      vertical-align: middle;
+      margin-left: 5px; }
+    .loginc .loginCenter .yzm .syanma {
+      display: inline-block;
+      width: 50px;
+      vertical-align: middle;
+      color: #a0a0a0; }
+    .loginc .loginCenter .button {
+      border-bottom: 1px solid #ccc;
+      width: 300px;
+      height: 40px;
+      font-size: 16px;
+      text-align: center;
+      color: #fff;
+      line-height: 40px;
+      border-radius: 5px;
+      background: linear-gradient(#F62648, #D01423); }
+  .loginc .loginBottom {
+    padding: 20px 60px; }
+    .loginc .loginBottom p {
+      font-size: 14px;
+      color: #666; }
+    .loginc .loginBottom span {
+      display: inline-block;
+      width: 140px;
+      height: 40px;
+      margin-top: 30px; }
+      .loginc .loginBottom span i {
+        display: inline-block;
+        width: 26px;
+        height: 24px;
+        vertical-align: middle;
+        background: url(../img/sprites/login-icon5.jpg) no-repeat -303px bottom; }
+      .loginc .loginBottom span .par2 {
+        background-position: -120px bottom; }
